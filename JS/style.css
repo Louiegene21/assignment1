@@ -1,0 +1,28 @@
+.green16 {
+    color: green;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    top: 50%; /* Position icons vertically at the middle */
+    transform: translateY(-50%);
+    width: 10%; /* Adjust the width of the buttons */
+    background-color: transparent; /* Set background color to transparent */
+  }
+
+ 
+ .card-image {
+    overflow: hidden;
+    padding-top: 0;
+   
+ }
